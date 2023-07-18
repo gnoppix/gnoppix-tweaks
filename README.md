@@ -1,6 +1,6 @@
 # Make Linux Look Like MacOS - GNOME Desktop Environment
 
-This Project is to make Gnoppix and other Debian derivative distributions (Mint, PopOS, etc.) look like MacOS. *Version 12+ is required*
+This Project is to make Gnoppix and other Debian derivative distributions (Mint, PopOS, etc.) look like MacOS. *Version 23 is required*
 
 _Source Files in this project_
 - https://www.gnome-look.org/p/1148692/ - Capitine Cursors
@@ -16,7 +16,7 @@ _Source Files in this project_
 
 ```bash
 sudo apt install git gnome-tweak-tool gnome-shell-extensions chrome-gnome-shell cairo-dock -y
-git clone https://github.com/ChrisTitusTech/Linux-MacOS-GNOME.git ~/MacOS
+git clone https://github.com/gnoppix/gnoppix-tweaks.git ~/MacOS
 mkdir ~/.themes
 mkdir ~/.icons
 mv ~/MacOS/themes/* ~/.themes
